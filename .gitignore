@@ -22,3 +22,11 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/.metadata/
+RemoteSystemsTempFiles/.project
+*.prefs
+
+1. Linear Search/.gitignore
+1. Linear Search/.classpath
+1. Linear Search/.project
+
