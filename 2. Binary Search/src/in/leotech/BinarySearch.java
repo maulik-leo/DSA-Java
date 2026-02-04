@@ -9,20 +9,21 @@ public class BinarySearch {
 		System.out.println(result_index != -1 ? "Element is present on index " + result_index : "Element not present !");
 	}
 
-	private static int binarySearch(int[] nums, int target) {
-		int mid;
-		int low = 0;
-		int high = nums.length - 1;
+	private static int binarySearch(int[] nums, int target) { // O(log n) Time Complexity
+		int low = 0, high = nums.length - 1, mid, steps = 0;
 
 		while (low <= high) {
+			steps++;
 			mid = (low + high) / 2;
-			if (nums[mid] == target)
+			if (nums[mid] == target) {
+				System.out.println("Steps : " + steps);
 				return mid;
-			else if (target < nums[mid])
+			} else if (target < nums[mid])
 				high = mid - 1;
 			else
 				low = mid + 1;
 		}
+		System.out.println("Steps : " + steps);
 		return -1;
 	}
 }
