@@ -16,7 +16,7 @@ public class InsertionSort {
 		System.out.println();
 	}
 
-	static void insertionSort(int[] arr) {
+	static void insertionSort(int[] arr) {// best-case time complexity of O(n) and a worst/average-case complexity of O(n^2)
 		for (int i = 1; i < arr.length; i++) {
 			int key = arr[i];
 			int j = i - 1;

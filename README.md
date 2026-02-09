@@ -5,6 +5,7 @@
 2. Binary Search (Time Complexity is `O(log n)`)
 3. Bubble Sort (Time Complexity is `O(n²)`)
 4. Selection Sort (Time Complexity is `O(n²)`)
+5. Insertion Sort (Time Complexity is `O(n²)`)
 
 ## Big O Notation Quick Reference
 
